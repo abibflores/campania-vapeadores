@@ -1,0 +1,59 @@
+/* Estilos generales */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Encabezado */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #D32F2F;
+  font-weight: bold;
+}
+
+/* Secciones */
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #00796B;
+  margin-bottom: 15px;
+}
+
+/* Listas */
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 16px;
+  padding-left: 20px;
+  position: relative;
+}
+
+
+/* Imágenes */
+.image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 16px 0;
+}
